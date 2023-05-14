@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./webImages/android-chrome-192x192.png">
+    <link href="./style.css" rel="stylesheet">
+    <title>Real Time Face Recognition</title>
+</head>
+
+<body>
+    <section>
+        <div class="login-box">
+            <form>
+                <h2>Register</h2>
+                <div class="input-box">
+                    <input type="number" name="roll" id="roll">
+                    <label>Roll no.</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="name" id="name">
+                    <label>Name</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="branch" id="branch">
+                    <label>Branch</label>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" id="email">
+                    <label>Email</label>
+                </div>
+                <div class="input-box img">
+                    <input type="file" name="image" id="image">
+                    <label>Image</label>
+                </div>
+                <button id="insert">Insert</button>
+                <button id="read">Read</button>
+                <button id="update">Update</button>
+                <button id="delete">Delete</button>
+                <button type="button" onclick="location.href='./downloads.html'">Download Attendance</button>
+            </form>
+        </div>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
